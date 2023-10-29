@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    height: 200px;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 50px;
+    font-size: 3em;
+}
+
+header > p {
+    padding-top: 10px;
+    color: rgba(255, 255, 255, 0.589);
+}
+
+header > p > a {
+    text-decoration: none;
+    color: white;
+}
+
+.bgwhite {
+    height: 600px;
+    background-color: white;
+    border: 2px solid black
+}
+
+.bgwhite > p {
+    font-size: 1.5em;
+    height: 100%;
+    width: 30%;
+    padding-top: 120px;
+    line-height: 2.2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 20px;
+}
